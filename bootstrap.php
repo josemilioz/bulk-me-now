@@ -29,7 +29,7 @@
 
 if ( $_SERVER['SCRIPT_FILENAME'] == __FILE__ ) die( __( "Access Denied." ) );
 
-load_plugin_textdomain( 'bulk', FALSE, basename( dirname( __FILE__ ) ) . '/lang/' );
+load_plugin_textdomain( 'bulk', FALSE, basename( dirname( __FILE__ ) ) . '/lang/' ); 
 
 global $wpdb, $bulkmenow_settings, $bulkmenow_model, $bulkmenow_externals;
 

@@ -5,7 +5,7 @@ msgstr ""
 "PO-Revision-Date: 2014-02-25 10:14-0400\n"
 "Last-Translator: mEtAmorPher <metamorpher.py@gmail.com>\n"
 "Language-Team: \n"
-"Language: es\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,67 +17,67 @@ msgstr ""
 
 #: ../bootstrap.php:30
 msgid "Access Denied."
-msgstr "Acceso Denegado."
+msgstr "Acesso Negado."
 
 #: ../bootstrap.php:51
 #, php-format
 msgid "Reply from %1$s [%2$s]"
-msgstr "Respuesta desde %1$s [%2$s]"
+msgstr "Resposta de %1$s [%2$s]"
 
 #: ../bootstrap.php:60
 msgid "Message has been successfully sent."
-msgstr "El mensaje ha sido enviado exitosamente."
+msgstr "A mensagem foi enviada com sucesso."
 
 #: ../bootstrap.php:63
 #, php-format
 msgid "New messages received in %1$s [%2$s]"
-msgstr "Nuevos mensajes recibidos en %1$s [%2$s]"
+msgstr "Novas mensagens recebidas em %1$s [%2$s]"
 
 #: ../classes/list.class.php:124
 msgid ""
 "Are you sure you want empty the trash? This procedure CAN NOT BE UNDONE."
 msgstr ""
-"¿Está seguro que desea vaciar la papelera? Este procedimiento NO SE PUEDE "
-"DESHACER."
+"Tem certeza de que deseja esvaziar a lixeira? Este procedimento NÃO PODE SER "
+"DESFEITO."
 
 #: ../classes/list.class.php:125
 msgid "Empty Trash"
-msgstr "Vaciar Papelera"
+msgstr "Esvaziar Lixeira"
 
 #: ../classes/list.class.php:147
 msgid "No messages were found."
-msgstr "No se encontraron mensajes."
+msgstr "Nenhuma mensagem foi encontrada."
 
 #: ../classes/list.class.php:154
 msgid "There are no new messages yet."
-msgstr "No hay mensajes nuevos todavía."
+msgstr "Não há novas mensagens ainda."
 
 #: ../classes/list.class.php:155
 msgid "No messages were read yet."
-msgstr "No se han leído mensajes todavía."
+msgstr "Nenhuma mensagem foi lida ainda."
 
 #: ../classes/list.class.php:156
 msgid "There are no messages on the Trash. Hooray!"
-msgstr "No hay mensajes en la papelera. ¡Enhorabuena!"
+msgstr "Ainda não existem mensagens na Lixeira. Ae!"
 
 #: ../classes/list.class.php:173
 msgid "Unread"
-msgstr "No Leídos"
+msgstr "Não Lidas"
 
 #: ../classes/list.class.php:174
 msgid "Read"
-msgstr "Leídos"
+msgstr "Lidas"
 
 #: ../classes/list.class.php:175
 msgid "Trash"
-msgstr "Papelera"
+msgstr "Lixeira"
 
 #: ../classes/list.class.php:200 ../views/options.template.php:187
 #: ../views/shortcode.template.php:47 ../views/shortcode.template.php:48
 #: ../views/widget.control.template.php:66 ../views/widget.template.php:53
 #: ../views/widget.template.php:54
 msgid "Name"
-msgstr "Nombre"
+msgstr "Nome"
 
 #: ../classes/list.class.php:201 ../views/message.template.php:73
 #: ../views/options.template.php:190 ../views/shortcode.template.php:83
@@ -88,7 +88,7 @@ msgstr "E-mail"
 
 #: ../classes/list.class.php:202
 msgid "Date"
-msgstr "Fecha"
+msgstr "Data"
 
 #: ../classes/list.class.php:203
 msgid "Status"
@@ -96,20 +96,20 @@ msgstr "Estado"
 
 #: ../classes/list.class.php:264
 msgid "View"
-msgstr "Ver"
+msgstr "Olhar"
 
 #: ../classes/list.class.php:273 ../classes/list.class.php:392
 #: ../views/message.template.php:38
 msgid "Send to Trash"
-msgstr "Enviar a Papelera"
+msgstr "Enviar para o Lixo"
 
 #: ../classes/list.class.php:282
 msgid "Mark as Read"
-msgstr "Marcar como Leído"
+msgstr "Marcar como Lida"
 
 #: ../classes/list.class.php:291 ../classes/list.class.php:391
 msgid "Mark Unread"
-msgstr "Marcar como No Leído"
+msgstr "Marcar como Não Lida"
 
 #: ../classes/list.class.php:300 ../classes/list.class.php:393
 msgid "Restore"
@@ -121,166 +121,167 @@ msgid ""
 "Are you sure you want to delete the message from %1$s? This procedure CAN "
 "NOT BE UNDONE"
 msgstr ""
-"¿Está seguro que desea eliminar el mensaje de %1$s? Este procedimiento NO SE "
-"PUEDE DESHACER."
+"Tem certeza de que deseja deletar a mensagem de %1$s? Este procedimento NÃO "
+"PODE SER DESFEITO."
 
 #: ../classes/list.class.php:310 ../classes/list.class.php:389
 msgid "Delete"
-msgstr "Eliminar"
+msgstr "Deletar"
 
 #: ../classes/list.class.php:326 ../classes/list.class.php:346
 #: ../classes/list.class.php:366
 msgid "No Data"
-msgstr "Sin Datos"
+msgstr "Sem Dados"
 
 #: ../classes/list.class.php:369
 msgid "Replied"
-msgstr "Respondido"
+msgstr "Respondida"
 
 #: ../classes/list.class.php:369
 msgid "Un-replied"
-msgstr "Sin Responder"
+msgstr "Sem Responder"
 
 #: ../classes/list.class.php:390
 msgid "Mark Read"
-msgstr "Marcar como Leído"
+msgstr "Marcar como Lida"
 
 #: ../classes/list.class.php:422
 msgid "Messages has been marked as read."
-msgstr "Los mensajes fueron marcados como leídos."
+msgstr "Mensagens marcadas como lidas."
 
 #: ../classes/list.class.php:423
 msgid "Messages has been sent to trash."
-msgstr "Los mensajes fueron enviados a la Papelera."
+msgstr "Mensagens enviadas para a lixeira."
 
 #: ../classes/list.class.php:424
 msgid "Messages has been marked as unread."
-msgstr "Los mensajes fueron marcados como no leídos."
+msgstr "Mensagens marcadas como não lidas."
 
 #: ../classes/list.class.php:425
 msgid "Messages has been restored."
-msgstr "Los mensajes fueron restaurados."
+msgstr "Mensagens foram restauradas."
 
 #: ../classes/list.class.php:426
 msgid "Messages has been deleted."
-msgstr "Los mensajes fueron eliminados."
+msgstr "Mensagens foram deletadas."
 
 #: ../classes/list.class.php:434
 msgid "Trash has been emptied. Hooray!"
-msgstr "La papelera fue vaciada. ¡Enhorabuena!"
+msgstr "A lixeira foi esvaziada. Ae!"
 
 #: ../classes/list.class.php:555
 msgid "Message has been marked as read."
-msgstr "El mensaje fue marcado como leído."
+msgstr "O mensagem foi marcado como lida."
 
 #: ../classes/list.class.php:556
 msgid "Message has been sent to trash."
-msgstr "El mensaje fue enviado a la Papelera."
+msgstr "O mensagem foi enviada para a lixeira."
 
 #: ../classes/list.class.php:557
 msgid "Message has been marked as unread."
-msgstr "El mensaje fue marcado como no leído."
+msgstr "O mensagem foi marcado como não lida."
 
 #: ../classes/list.class.php:558
 msgid "Message has been restored."
-msgstr "El mensaje fue restaurado."
+msgstr "O mensagem foi restaurada."
 
 #: ../classes/list.class.php:559
 msgid "Message has been deleted."
-msgstr "El mensaje fue eliminado."
+msgstr "O mensagem foi deletada."
 
 #: ../classes/list.class.php:614 ../classes/list.class.php:615
 #: ../classes/options.class.php:102
 msgid "Messages"
-msgstr "Mensajes"
+msgstr "Mensagens"
 
 #: ../classes/list.class.php:632
 msgid ""
 "You do NOT have enough permissions to see the message's list. Contact the "
 "Administration team for answers."
 msgstr ""
-"No tienes suficientes permisos para ver la lista de mensajes. Contacta al "
-"equipo de administración para obtener respuestas."
+"Você não tem permissões suficientes para ver a lista de mensagens. Fale com "
+"a equipe de administração para obter respostas."
 
 #: ../classes/message.class.php:89 ../classes/message.class.php:90
 #: ../views/message.template.php:34
 msgid "View Message"
-msgstr "Ver Mensaje"
+msgstr "Olhar Mensagem"
 
 #: ../classes/message.class.php:121
 msgid "The reply has been saved to the database."
-msgstr "La respuesta fue guardada en la base de datos."
+msgstr "A resposta foi salvada no banco de dados."
 
 #: ../classes/message.class.php:125
 msgid "The reply has been successfully sent."
-msgstr "La respuesta fue enviada satisfactoriamente."
+msgstr "A resposta foi enviada com sucesso."
 
 #: ../classes/message.class.php:132
 msgid ""
 "You should complete the subject and message in order to send or store the "
 "reply."
 msgstr ""
-"Debes completar el Asunto y Mensaje para poder enviar o guardar la respuesta."
+"Você deve completar o assunto e a mensagem, a fim de enviar ou armazenar a "
+"resposta."
 
 #: ../classes/message.class.php:136
 msgid "The reply could not been sent or saved. Try again."
-msgstr "La respuesta no se pudo enviar o guardar. Inténtalo nuevamente."
+msgstr "A resposta não poderia ter sido enviado ou salvo. Tente novamente."
 
 #: ../classes/model.class.php:364
 msgid "reCAPTCHA solve was incorrect."
-msgstr "La solución para reCAPTCHA fue incorrecta."
+msgstr "A solução para reCAPTCHA estava incorreta."
 
 #: ../classes/model.class.php:365
 msgid "reCAPTCHA private key is not setup."
-msgstr "La clave privada de reCAPTCHA no fue establecida."
+msgstr "A chave privada reCAPTCHA não está configurado."
 
 #: ../classes/model.class.php:366
 msgid "reCAPTCHA challenge verifier is incorrect."
-msgstr "El verificador del desafío reCAPTCHA es incorrecto."
+msgstr "O desafio verificador de reCAPTCHA está incorreto."
 
 #: ../classes/model.class.php:367
 msgid "reCAPTCHA timed out. Refresh the page."
-msgstr "reCAPTCHA ha expirado. Actualice la página."
+msgstr "reCAPTCHA expirou. Atualize a página."
 
 #: ../classes/model.class.php:368
 msgid "reCAPTCHA is unreachable."
-msgstr "reCAPTCHA es inalcanzable."
+msgstr "reCAPTCHA está inacessível."
 
 #: ../classes/model.class.php:409 ../classes/model.class.php:462
 msgid ""
 "You didn't complete the mandatory fields. Complete them to send the message. "
 "Those are marked with a star (*)."
 msgstr ""
-"No has completado los campos obligatorios. Complétalos para enviar el "
-"mensaje. Están marcados con un asterisco (*)."
+"Você não completou os campos obrigatórios. Completá-los para enviar a "
+"mensagem. Aqueles estão marcados com um asterisco (*)."
 
 #: ../classes/model.class.php:417 ../classes/model.class.php:470
 msgid "The e-mail you provided doesn't seem valid. Try again."
-msgstr "El e-mail que has ingresado parece inválido. Inténtalo nuevamente."
+msgstr "O e-mail fornecido não parece válido. Tente novamente."
 
 #: ../classes/options.class.php:91 ../classes/options.class.php:92
 msgid "Options"
-msgstr "Opciones"
+msgstr "Opções"
 
 #: ../classes/options.class.php:101
 msgid "Bulk Me Now! Options"
-msgstr "Opciones para Bulk Me Now!"
+msgstr "Opções para Bulk Me Now!"
 
 #: ../classes/options.class.php:125
 msgid "Bulk Actions"
-msgstr "Acciones en lote"
+msgstr "Acções por lote"
 
 #: ../classes/options.class.php:160
 msgid "Settings restored to factory defaults."
-msgstr "Las opciones fueron restablecidas a la versión de fábrica."
+msgstr "As opções foram restablecidas para a versão inicial."
 
 #: ../classes/options.class.php:164
 msgid "Settings saved correctly."
-msgstr "Opciones guardadas correctamente."
+msgstr "Opções salvadas corretamente."
 
 #: ../classes/widget.class.php:55
 msgid "A beautiful and simple contact form with the basic to go."
-msgstr "Un bonito y simple formulario de contacto con lo básico, para llevar."
+msgstr "Um formulário de contato bonito e simples, com o básico para levar."
 
 #: ../classes/widget.class.php:58
 msgid "Bulk Me Now!"
@@ -288,35 +289,35 @@ msgstr "Bulk Me Now!"
 
 #: ../views/list.template.php:37
 msgid "Unread Messages"
-msgstr "Mensajes No Leídos"
+msgstr "Mensagens Não Lidas"
 
 #: ../views/list.template.php:38
 msgid "Read Messages"
-msgstr "Mensajes Leídos"
+msgstr "Mensagens Lidas"
 
 #: ../views/list.template.php:39
 msgid "Trashed Messages"
-msgstr "Mensajes en Papelera"
+msgstr "Mensagens na Lixeira"
 
 #: ../views/list.template.php:52
 msgid "Search"
-msgstr "Buscar"
+msgstr "Pesquisar"
 
 #: ../views/list.template.php:54
 msgid ""
 "Are you sure you want to delete all the selected messages? This procedure "
 "CAN NOT BE UNDONE."
 msgstr ""
-"¿Está seguro de querer eliminar los mensajes seleccionados? Este "
-"procedimiento NO SE PUEDE DESHACER."
+"Tem certeza de que quer deletar todas as mensagens selecionadas? Este "
+"procedimento NÃO PODE SER DESFEITO."
 
 #: ../views/message.template.php:35
 msgid "Back to List"
-msgstr "Volver a la Lista"
+msgstr "Voltar à Lista"
 
 #: ../views/message.template.php:37
 msgid "Mark as Unread"
-msgstr "Marcar como No Leído"
+msgstr "Marcar como Não Lida"
 
 #: ../views/message.template.php:53
 msgid "From"
@@ -334,7 +335,7 @@ msgstr "Indefinido"
 #: ../views/widget.control.template.php:73 ../views/widget.template.php:65
 #: ../views/widget.template.php:66
 msgid "City"
-msgstr "Ciudad"
+msgstr "Cidade"
 
 #: ../views/message.template.php:63 ../views/options.template.php:189
 #: ../views/shortcode.template.php:71 ../views/shortcode.template.php:72
@@ -345,39 +346,39 @@ msgstr "País"
 
 #: ../views/message.template.php:68
 msgid "See where it is"
-msgstr "Mira dónde está"
+msgstr "Veja onde é"
 
 #: ../views/message.template.php:78
 msgid "Date Sent"
-msgstr "Fecha de Envío"
+msgstr "Data de Envio"
 
 #: ../views/message.template.php:83
 msgid "IP Address"
-msgstr "Dirección IP"
+msgstr "Endereço IP"
 
 #: ../views/message.template.php:86
 msgid "See where it comes from"
-msgstr "Mira de dónde viene"
+msgstr "Veja de onde vem"
 
 #: ../views/message.template.php:91
 msgid "Sent from"
-msgstr "Enviado desde"
+msgstr "Enviado do"
 
 #: ../views/message.template.php:103 ../views/message.template.php:130
 #: ../views/options.template.php:191 ../views/shortcode.template.php:95
 #: ../views/shortcode.template.php:96 ../views/widget.control.template.php:94
 #: ../views/widget.template.php:101 ../views/widget.template.php:102
 msgid "Message"
-msgstr "Mensaje"
+msgstr "Mensagem"
 
 #: ../views/message.template.php:114
 #, php-format
 msgid "Reply to %s"
-msgstr "Responder a %s"
+msgstr "Responder %s"
 
 #: ../views/message.template.php:125
 msgid "Subject"
-msgstr "Asunto"
+msgstr "Assunto"
 
 #: ../views/message.template.php:137
 msgid "Send"
@@ -385,19 +386,19 @@ msgstr "Enviar"
 
 #: ../views/message.template.php:138
 msgid "Save it for later"
-msgstr "Guardar para después"
+msgstr "Guarde para mais tarde"
 
 #: ../views/message.template.php:139
 msgid "Reset"
-msgstr "Deshacer"
+msgstr "Restabelecer"
 
 #: ../views/message.template.php:150
 msgid "Created by"
-msgstr "Creado por"
+msgstr "Criado por"
 
 #: ../views/message.template.php:159
 msgid "Last modification by"
-msgstr "Última modificación"
+msgstr "Última modificação por"
 
 #: ../views/message.template.php:168
 msgid "Sent by"
@@ -405,7 +406,7 @@ msgstr "Enviado por"
 
 #: ../views/message.template.php:177
 msgid "Last sent by"
-msgstr "Último envío"
+msgstr "Último Envio"
 
 #: ../views/message.template.php:185
 #, php-format
@@ -413,32 +414,33 @@ msgid ""
 "The address appearing in the e-mail about to be sent will be <strong>%1$s</"
 "strong> <a href=\"%2$s\" target=\"_blank\">[Change it]</a>"
 msgstr ""
-"La dirección que va a aparecer en el e-mail que enviarás en breve será "
-"<strong>%1$s</strong> <a href=\"%2$s\" target=\"_blank\">[Cambiar]</a>"
+"O endereço que aparece no e-mail presto a ser enviado será <strong>%1$s</"
+"strong> <a href=\"%2$s\" target=\"_blank\">[Mudá-lo]</a>"
 
 #: ../views/message.template.php:195
 msgid "The message you are trying to see does NOT exist."
-msgstr "El mensaje que quieres ver NO existe."
+msgstr "A mensagem que você está tentando ver não existe."
 
 #: ../views/message.template.php:195
 msgid "You do NOT have enough permissions to see the messages."
-msgstr "Tú NO tienes suficientes permisos para ver mensajes."
+msgstr "Você não tem permissões suficientes para ver as mensagens."
 
 #: ../views/message.template.php:196
 #, php-format
 msgid "<a href=\"%1$s\">Click here</a> to return to the list."
-msgstr "<a href=\"%1$s\">Clic aquí</a> para retornar a la lista."
+msgstr "<a href=\"%1$s\">Clique aqui</a> para voltar à lista."
 
 #: ../views/notification.template.php:50
 msgid "Hello!"
-msgstr "Hola!"
+msgstr "Olá!"
 
 #: ../views/notification.template.php:51
 #, php-format
 msgid "You have <span>%1$d new message</span> in your inbox!"
 msgid_plural "You have <span>%1$d new messages</span> in your inbox!"
-msgstr[0] "¡Tienes <span>%1$d nuevo mensaje</span> en tu bandeja de entrada!"
-msgstr[1] "¡Tienes <span>%1$d nuevos mensajes</span> en tu bandeja de entrada!"
+msgstr[0] "Você tein <span>%1$d nova mensagem</span> na sua caixa de entrada!"
+msgstr[1] ""
+"Você tein <span>%1$d novas mensagens</span> na sua caixa de entrada!"
 
 #: ../views/notification.template.php:53
 #, php-format
@@ -446,8 +448,8 @@ msgid ""
 "You are receiving this message because you belong to the notification list "
 "in <strong>%1$s</strong> [<a href=\"%2$s\">%2$s</a>]"
 msgstr ""
-"Estás recibiendo este mensaje porque perteneces a la lista de notificaciones "
-"en <strong>%1$s</strong> [<a href=\"%2$s\">%2$s</a>]"
+"Você está recebendo esta mensagem porque você pertence à lista de "
+"notificação em <strong>%1$s</strong> [<a href=\"%2$s\">%2$s</a>]"
 
 #: ../views/notification.template.php:54
 #, php-format
@@ -455,24 +457,25 @@ msgid ""
 "To read your new messages you will need to log into your WordPress Admin "
 "Area. Do so by <a href=\"%1$s\" class=\"here\">clicking here</a>."
 msgstr ""
-"Para leer tus nuevos mensajes debes ingresar al área administrativa de "
-"WordPress. Hazlo haciendo <a href=\"%1$s\" class=\"here\">clic aquí</a>."
+"Para ler as novas mensagens você vai precisar ingressar na sua área "
+"administrativa de WordPress. Fazê-lo <a href=\"%1$s\" class=\"here"
+"\">clicando aqui</a>."
 
 #: ../views/notification.template.php:55
 msgid ""
 "You should get in there and start answering the feedback you got. Do not "
 "make your audience wait any longer!"
 msgstr ""
-"Deberías ingresar ahora y empezar a responder los mensajes recibidos. ¡No "
-"hagas esperar a tu audiencia!"
+"Você deve chegar lá e começar a responder as mensagens que você tem. Não "
+"faça o seu público esperar mais!"
 
 #: ../views/notification.template.php:57
 msgid ""
 "If you DO NOT want to receive more emails like this, get into the WordPress "
 "admin area and disable the notifications, under Messages > Options"
 msgstr ""
-"Si NO deseas recibir más emails como este, ingresa al área administrativa de "
-"WordPress y desactiva las notificaciones, en Mensajes > Opciones"
+"Se você NÃO quiser receber mais e-mails como este, entre na área de "
+"administração do WordPress e desative as notificações, sob Mensagens > Opções"
 
 #: ../views/notification.template.php:61
 #, php-format
@@ -484,19 +487,19 @@ msgstr ""
 
 #: ../views/options.template.php:33
 msgid "Options for Bulk Me Now!"
-msgstr "Opciones para Bulk Me Now!"
+msgstr "Opções para Bulk Me Now!"
 
 #: ../views/options.template.php:43
 msgid "reCAPTCHA Configuration"
-msgstr "Configuración de reCAPTCHA"
+msgstr "Configuração de reCAPTCHA"
 
 #: ../views/options.template.php:46
 msgid "reCAPTCHA Activation"
-msgstr "Activación de reCAPTCHA"
+msgstr "Ativação de reCAPTCHA"
 
 #: ../views/options.template.php:50
 msgid "Use reCAPTCHA to prevent spam"
-msgstr "Usar reCAPTCHA para prevenir el spam"
+msgstr "Usar reCAPTCHA para evitar o spam"
 
 #: ../views/options.template.php:52
 #, php-format
@@ -504,247 +507,249 @@ msgid ""
 "Check this to use reCAPTCHA. You can get a free ID from <a href=\"%1$s\" "
 "target=\"_blank\">here</a>."
 msgstr ""
-"Selecciona esta opción para usar reCAPTCHA. Puedes obtener una ID gratuita "
-"<a href=\"%1$s\" target=\"_blank\">aquí</a>."
+"Marque essa opção para usar o reCAPTCHA. Você pode obter uma ID gratuita <a "
+"href=\"%1$s\" target=\"_blank\">aqui</a>."
 
 #: ../views/options.template.php:57
 msgid "reCAPTCHA Public Key"
-msgstr "reCAPTCHA Clave Pública"
+msgstr "reCAPTCHA Chave Pública"
 
 #: ../views/options.template.php:66
 msgid "reCAPTCHA Private Key"
-msgstr "reCAPTCHA Clave Privada"
+msgstr "reCAPTCHA Chave Privada"
 
 #: ../views/options.template.php:75
 msgid "reCAPTCHA Image Width"
-msgstr "reCAPTCHA Ancho de Imagen"
+msgstr "reCAPTCHA Largura da Imagem"
 
 #: ../views/options.template.php:80
 msgid ""
 "It may distort the captcha image, but if you need to fit it to your div, "
 "then here is the option. To disable, just leave blank."
 msgstr ""
-"Puede distorsionar la imagen del captcha, pero si necesitas adaptarlo a "
-"algún div, entonces aquí tienes la opción. Para desactivar, nada más déjalo "
-"en blanco."
+"Isto pode distorcer a imagem captcha, mas se você precisa encaixar à sua "
+"div, então aqui fica a opção. Para desativar, basta deixar em branco."
 
 #: ../views/options.template.php:84
 msgid "Ajax & JavaScript"
-msgstr "Ajax y JavaScript"
+msgstr "Ajax e JavaScript"
 
 #: ../views/options.template.php:87
 msgid "Ajax Setup"
-msgstr "Uso de Ajax"
+msgstr "Uso do Ajax"
 
 #: ../views/options.template.php:91
 msgid "Make the widget work asynchronously"
-msgstr "Hacer que el plugin trabaje asíncronamente"
+msgstr "Fazer trabalhar o Widget de forma assíncrona"
 
 #: ../views/options.template.php:93
 msgid "It will allow to send the form data without refreshing the page."
-msgstr "Permitirá enviar información sin necesidad de actualizar la página."
+msgstr "Isto permitirá enviar os dados do formulário sem atualizar a página."
 
 #: ../views/options.template.php:98
 msgid "JavaScript Setup"
-msgstr "Uso de JavaScript"
+msgstr "Uso do JavaScript"
 
 #: ../views/options.template.php:102
 msgid "Avoid the loading of jQuery"
-msgstr "Evitar la carga de jQuery"
+msgstr "Evite o carregamento do jQuery"
 
 #: ../views/options.template.php:104
 msgid ""
 "Check this option in case your theme is already calling a jQuery instance "
 "1.10+ version or later"
 msgstr ""
-"Selecciona esta opción en caso de que tu plantilla ya use una instancia de "
-"jQuery versión 1.10+ o posterior"
+"Marque esta opção caso o seu tema já está chamando uma instância jQuery "
+"versão 1.10 + ou posterior"
 
 #: ../views/options.template.php:110
 msgid "Load scripts at the bottom of the page (Recommended)"
-msgstr "Cargar los scripts en el pie de la página (Recomendado)"
+msgstr "Carregar os scripts na parte inferior da página (Recomendado)"
 
 #: ../views/options.template.php:112
 msgid ""
 "It will load plugin JS files at the bottom of the pages, so Look & Feel "
 "files load first."
 msgstr ""
-"Cargará los archivos JS del plugin en el pie de la página, así los archivos "
-"de estilo se cargan primero."
+"Isto irá carregar os plugins JS na parte inferior das páginas, assim os "
+"arquivos de estilo carregam-se no primeiro lugar."
 
 #: ../views/options.template.php:118
 msgid "Disable JavaScript (Advanced Users)"
-msgstr "Desactivar JavaScript (Usuarios Avanzados)"
+msgstr "Desativar JavaScript (Usuários Avançados)"
 
 #: ../views/options.template.php:121
 msgid ""
 "You will have to use your own JS file in order to validate and maybe store "
 "the message in the database."
 msgstr ""
-"Tendrás que usar tu propio archivo de JavaScript para validar y tal vez "
-"guardar los mensajes en la base de datos."
+"Você terá que usar o seu próprio arquivo JS, a fim de validar e talvez "
+"armazenar a mensagem no banco de dados."
 
 #: ../views/options.template.php:122 ../views/options.template.php:249
 #: ../views/options.template.php:322
 msgid "REMEMBER:"
-msgstr "RECUERDA:"
+msgstr "LEMBRE-SE:"
 
 #: ../views/options.template.php:123
 msgid ""
 "If you turn this option on, then AJAX will be disabled as well. You will "
 "have to write your own script."
 msgstr ""
-"Si activas esta opción, la aplicación de AJAX también será desactivada. "
-"Tendrás que escribir tu propio script."
+"Se você ativar esta opção, então AJAX será desativado também. Você terá que "
+"escrever seu próprio script."
 
 #: ../views/options.template.php:128
 msgid "General Settings"
-msgstr "Opciones Generales"
+msgstr "Configurações Gerais"
 
 #: ../views/options.template.php:131
 msgid "Rows per Page"
-msgstr "Filas por Página"
+msgstr "Linhas por Página"
 
 #: ../views/options.template.php:136
 msgid "Quantity of rows per page in the lists views (Unread, Read, Trash)"
 msgstr ""
-"Cantidad de filas por página en las vistas (No Leídos, Leídos, Papelera)"
+"Quantidade de linhas por página nas listas de visualizações (Não Lidas, "
+"Lidas, Lixeira)"
 
 #: ../views/options.template.php:141
 msgid "Activate Reply"
-msgstr "Activar Respuesta"
+msgstr "Ativar Resposta"
 
 #: ../views/options.template.php:145
 msgid "Activate the Reply function"
-msgstr "Activar la función de Respuesta"
+msgstr "Ativar a função de Resposta"
 
 #: ../views/options.template.php:147
 msgid "Answer each message from the plugin itself."
-msgstr "Responde cualquier mensaje desde el plugin mismo."
+msgstr "Responda cada mensagem a partir do próprio plugin."
 
 #: ../views/options.template.php:152
 msgid "Default Subject"
-msgstr "Asunto por Defecto"
+msgstr "Assunto Padrão"
 
 #: ../views/options.template.php:157
 msgid ""
 "This is the default subject for the reply mail (You can change this "
 "individually, on each message)."
 msgstr ""
-"Este es el asunto por defecto para el email de respuesta (Puedes cambiar "
-"esto individualmente, en cada mensaje)."
+"Este é o assunto padrão para o e-mail de resposta (Você pode alterar "
+"individualmente, em cada mensagem)."
 
 #: ../views/options.template.php:162
 msgid "After Receiving"
-msgstr "Luego de Recibir"
+msgstr "Após Receber"
 
 #: ../views/options.template.php:167
 msgid "The displaying message to the user noticing the successful sent."
 msgstr ""
-"El mensaje para mostrar al usuario diciéndole que el mensaje fue enviado "
-"satisfactoriamente."
+"A exibição de mensagem para o usuário perceber que seu mensagem foi enviado "
+"com sucesso."
 
 #: ../views/options.template.php:172
 msgid "Form Styling"
-msgstr "Estilo del Formulario"
+msgstr "Estilo do Formulário"
 
 #: ../views/options.template.php:176
 msgid "Disable CSS form styling (Advanced Users)"
-msgstr "Desactivar la hoja de estilos (Usuarios Avanzados)"
+msgstr "Desativar a folha de estilos CSS (Usuários Avançados)"
 
 #: ../views/options.template.php:178
 msgid ""
 "You will have to use your own CSS file in order to stylish the form output."
 msgstr ""
-"Tendrás que escribir tu propio archivo CSS para estilizar el formulario."
+"Você terá que usar o seu próprio arquivo CSS, a fim de estilizar o "
+"formulário."
 
 #: ../views/options.template.php:183
 msgid "Activate Mandatories"
-msgstr "Activar Obligatorios"
+msgstr "Ativar Obligatorios"
 
 #: ../views/options.template.php:200
 msgid ""
 "This will force audience to complete those specific fields, otherwise "
 "message is discarded."
 msgstr ""
-"Esto forzará a la audiencia a completar estos campos específicos, de otra "
-"manera el mensaje es descartado."
+"Isto irá forçar público para completar esses campos específicos, caso "
+"contrário mensagem é descartada."
 
 #: ../views/options.template.php:204
 msgid "Mailing Settings"
-msgstr "Opciones de Correo"
+msgstr "Configurações do Correio"
 
 #: ../views/options.template.php:207
 msgid "Activation"
-msgstr "Activación"
+msgstr "Ativação"
 
 #: ../views/options.template.php:211
 msgid "Activate e-mail notifications"
-msgstr "Activar notificaciones por e-mail"
+msgstr "Ativar notificações por e-mail"
 
 #: ../views/options.template.php:213
 msgid ""
 "Now with switch button! In case you want to keep settings, but turn the "
 "notifications off."
 msgstr ""
-"¡Ahora con botón de encendido! En caso de que quieras mantener las "
-"preferencias, puedes apagar las notificaciones."
+"Agora, com o botão do interruptor! No caso de você querer manter as "
+"configurações, mas apagar as notificações."
 
 #: ../views/options.template.php:218
 msgid "E-mails to Notify"
-msgstr "E-mails para notificar"
+msgstr "E-mails para Notificar"
 
 #: ../views/options.template.php:223
 msgid "Add one e-mail address per row. Neither space nor comma included."
-msgstr "Agrega una dirección de e-mail por línea. Sin espacios ni comas."
+msgstr ""
+"Adicionar um endereço de e-mail por linha. Nem o espaço nem vírgula incluído."
 
 #: ../views/options.template.php:228
 msgid "Frequency"
-msgstr "Frecuencia"
+msgstr "Freqüência"
 
 #: ../views/options.template.php:233
 msgid "Once Daily"
-msgstr "Una vez Diariamente"
+msgstr "Uma vez por Dia"
 
 #: ../views/options.template.php:238
 msgid "Once Weekly"
-msgstr "Una vez Semanalmente"
+msgstr "Uma vez por Semana"
 
 #: ../views/options.template.php:243
 msgid "Once Monthly"
-msgstr "Una vez Mensualmente"
+msgstr "Uma vez por Mês"
 
 #: ../views/options.template.php:248
 msgid "In case you do not have new messages, you will not be disturbed."
-msgstr "En caso de que no tengas mensajes nuevos, no serás molestado."
+msgstr "No caso de você não tem novas mensagens, você não será perturbado."
 
 #: ../views/options.template.php:250
 msgid ""
 "The real frequency of notifications relies on your website traffic, since "
 "WordPress does not use real cron-jobs."
 msgstr ""
-"La frecuencia real de notificaciones se basa en el tráfico de tu sitio web, "
-"ya que WordPress no utiliza cron-jobs reales."
+"A frequência real do notificações confia em seu site tráfego, sindo que o "
+"WordPress não usa cron-jobs reais."
 
 #: ../views/options.template.php:256
 msgid "Notification Subject"
-msgstr "Asunto de Notificación"
+msgstr "Assunto da Notificação"
 
 #: ../views/options.template.php:261
 msgid ""
 "This is the subject for the notification mail. Go easy on this or the "
 "message may be classified as spam."
 msgstr ""
-"Este es el asunto del e-mail de la notificación. Ve tranquilo aquí para que "
-"el mensaje no sea clasificado como spam."
+"Este é o assunto para o e-mail de notificação. Vá devagar com isso ou a "
+"mensagem pode ser classificada como spam."
 
 #: ../views/options.template.php:265
 msgid "Permissions"
-msgstr "Permisos"
+msgstr "Permissões"
 
 #: ../views/options.template.php:268 ../views/options.template.php:294
 msgid "Allow to see messages"
-msgstr "Permitir ver mensajes"
+msgstr "Permitir ver mensagens"
 
 #: ../views/options.template.php:283
 msgid "Allow to reply"
@@ -755,17 +760,17 @@ msgstr "Permitir responder"
 msgid ""
 "Obviously, if you disabled a role in '%1$s', then reply is disabled as well."
 msgstr ""
-"Obviamente, si desactivas un rol en '%1$s', la respuesta es desactivada "
-"también."
+"Obviamente, se você desativou um rol em '%1$s', responder é desativado "
+"também."
 
 #: ../views/options.template.php:299
 msgid "Allow to manage options"
-msgstr "Permitir manejar opciones"
+msgstr "Permitir gerenciar opções"
 
 #: ../views/options.template.php:310
 #, php-format
 msgid "For security reasons, you CANNOT disable '%1$s' role here."
-msgstr "Por razones de seguridad, NO puedes desactivar el rol '%1$s' aquí."
+msgstr "Por razões de segurança, você não pode desabilitar '%1$s' aqui."
 
 #: ../views/options.template.php:310
 msgid "Administrator"
@@ -777,82 +782,83 @@ msgstr "Desinstalar"
 
 #: ../views/options.template.php:319
 msgid "Remove all the messages and options stored when uninstalling"
-msgstr "Eliminar todos los mensajes y opciones cuando desactive el plugin"
+msgstr "Remova todas as mensagens e opções armazenadas ao desinstalar"
 
 #: ../views/options.template.php:323
 msgid "Data erased is unrecoverable."
-msgstr "La información eliminada no se puede recuperar."
+msgstr "Dados deletados é irrecuperável."
 
 #: ../views/options.template.php:331
 msgid "Save Settings"
-msgstr "Guardar Opciones"
+msgstr "Salvar Opções"
 
 #: ../views/options.template.php:332
 msgid ""
 "Are you sure you want to reset this plugin to factory settings? ALL CHANGES "
 "WILL BE LOST!"
 msgstr ""
-"¿Estás seguro de querer volver a las opciones por defecto? ¡TODOS LOS "
-"CAMBIOS SE PERDERÁN!"
+"Tem certeza de que deseja redefinir este plugin para as configurações de "
+"fábrica? TODAS AS ALTERAÇÕES SERÃO PERDIDAS!"
 
 #: ../views/options.template.php:332
 msgid "Restore Defaults"
-msgstr "Restablecer por Defecto"
+msgstr "Restaurar Opções"
 
 #: ../views/options.template.php:333
 msgid "About"
-msgstr "Acerca De"
+msgstr "Sobre"
 
 #: ../views/options.template.php:342
 msgid "Close"
-msgstr "Cerrar"
+msgstr "Fechar"
 
 #: ../views/options.template.php:346
 msgid "Made By"
-msgstr "Hecho Por"
+msgstr "Feito Por"
 
 #: ../views/options.template.php:350
 msgid "Currently Working With"
-msgstr "Actualmente Trabajando Con"
+msgstr "Atualmente Trabalhando Com"
 
 #: ../views/options.template.php:354
 msgid "Contact"
-msgstr "Contacto"
+msgstr "Contato"
 
 #: ../views/options.template.php:358
 msgid "Translating Bulk Me Now!"
-msgstr "Traduciendo Bulk Me Now!"
+msgstr "Traduzindo Bulk Me Now!"
 
 #: ../views/options.template.php:359
 msgid ""
 "If you've translated Bulk Me Now! into another language, please contribute "
 "the PO and MO files to this free project."
 msgstr ""
-"Si tradujiste Bulk Me Now! en otro idioma, por favor contribuye los archivos "
-"PO y MO a este proyecto gratuito."
+"Se você tiver traduzido Bulk Me Now! em outro idioma, por favor contribua os "
+"arquivos PO e MO para este projeto livre."
 
 #: ../views/options.template.php:360
 msgid ""
 "Write an e-mail to the address above (English, Spanish, Portuguese written)"
 msgstr ""
-"Escribe un e-mail a la dirección aquí arriba (En Inglés, Español o Portugués)"
+"Escreva um e-mail para o endereço acima (escrito no Inglês, Espanhol ou "
+"Português)"
 
 #: ../views/options.template.php:361
 msgid ""
 "You'll receive full credit for your help, and you name will appear in the "
 "column of the right."
 msgstr ""
-"Recibirás crédito total por tu ayuda, y tu nombre aparecerá en la columna de "
-"la derecha."
+"Você receberá todo o crédito por sua ajuda, e seu nome aparecerá na coluna "
+"da direita."
 
 #: ../views/options.template.php:366
 msgid "System Requirements"
-msgstr "Requerimientos de Sistema"
+msgstr "Requisitos do Sistema"
 
 #: ../views/options.template.php:368
 #, php-format
 msgid "PHP %1$s with Mail functions."
-msgstr "PHP %1$s con funciones de Mail."
+msgstr "PHP %1$s com funções de Mail."
 
 #: ../views/options.template.php:369
 #, php-format
@@ -862,60 +868,60 @@ msgstr "WordPress %1$s."
 #: ../views/options.template.php:370
 #, php-format
 msgid "Disk Space: %1$s."
-msgstr "Espacio en Disco: %1$s."
+msgstr "Espaço em Disco: %1$s."
 
 #: ../views/options.template.php:374
 msgid "Current Plugin Version"
-msgstr "Versión Actual del Plugin"
+msgstr "Versão Atual do Plugin"
 
 #: ../views/options.template.php:378
 msgid "Form Displaying"
-msgstr "El formulario se despliega"
+msgstr "Formulário Mostra-se"
 
 #: ../views/options.template.php:379
 msgid "Widgets and Shortcode"
-msgstr "Widgets y Shortcode"
+msgstr "Widgets e Shortcode"
 
 #: ../views/options.template.php:382
 msgid "Languages available"
-msgstr "Idiomas Disponibles"
+msgstr "Idiomas Disponíveis"
 
 #: ../views/options.template.php:384
 msgid "English"
-msgstr "Inglés"
+msgstr "Inglês"
 
 #: ../views/options.template.php:385
 msgid "Spanish"
-msgstr "Español"
+msgstr "Espanhol"
 
 #: ../views/options.template.php:386
 msgid "Portuguese"
-msgstr "Portugués"
+msgstr "Português"
 
 #: ../views/shortcode.template.php:108 ../views/shortcode.template.php:113
 #: ../views/widget.template.php:114 ../views/widget.template.php:119
 msgid "Enter the words above"
-msgstr "Ingresa las palabras encima"
+msgstr "Digite as palavras acima"
 
 #: ../views/shortcode.template.php:109 ../views/widget.template.php:115
 msgid "Enter the words you hear"
-msgstr "Ingresa las palabras que escuchas"
+msgstr "Digite as palavras que você ouve"
 
 #: ../views/shortcode.template.php:117 ../views/widget.template.php:123
 msgid "Get another CAPTCHA"
-msgstr "Obtener otro CAPTCHA"
+msgstr "Obter outro CAPTCHA"
 
 #: ../views/shortcode.template.php:118 ../views/widget.template.php:124
 msgid "Get an audio CAPTCHA"
-msgstr "Obtener un CAPTCHA en audio"
+msgstr "Obter um CAPTCHA de áudio"
 
 #: ../views/shortcode.template.php:119 ../views/widget.template.php:125
 msgid "Get an image CAPTCHA"
-msgstr "Obtener un CAPTCHA en imagen"
+msgstr "Obter uma imagem CAPTCHA"
 
 #: ../views/shortcode.template.php:120 ../views/widget.template.php:126
 msgid "Help"
-msgstr "Ayuda"
+msgstr "Ajuda"
 
 #: ../views/shortcode.template.php:147 ../views/widget.template.php:153
 msgid "Submit"
@@ -923,7 +929,7 @@ msgstr "Enviar"
 
 #: ../views/shortcode.template.php:154 ../views/widget.template.php:39
 msgid "You should select at least one field for this form."
-msgstr "Deberías elegir al menos un campo para este formulario."
+msgstr "Você deve selecionar pelo menos um campo para este formulário."
 
 #: ../views/widget.control.template.php:33
 msgid "Title"
@@ -931,19 +937,19 @@ msgstr "Título"
 
 #: ../views/widget.control.template.php:40
 msgid "Salutation"
-msgstr "Saludo"
+msgstr "Saudação"
 
 #: ../views/widget.control.template.php:41
 msgid "Accepts HTML. Leave blank to disable."
-msgstr "Acepta HTML. Deja en blanco para desactivar."
+msgstr "Aceita HTML. Deixe em branco para desativar."
 
 #: ../views/widget.control.template.php:47
 msgid "Automatically add paragraphs"
-msgstr "Agregar párrafos automáticamente"
+msgstr "Adicionar automaticamente parágrafos"
 
 #: ../views/widget.control.template.php:53
 msgid "Title for submit button"
-msgstr "Título para el botón de envío"
+msgstr "Título para o Botão Enviar"
 
 #: ../views/widget.control.template.php:59
 msgid "Fields"
@@ -952,5 +958,5 @@ msgstr "Campos"
 #: ../views/widget.control.template.php:60
 msgid "Mandatory fields will be automatically selected, despite your choices."
 msgstr ""
-"Los campos obligatorios serán seleccionados automáticamente, a pesar de tus "
-"elecciones."
+"Os campos obrigatórios serão selecionados automaticamente, apesar de suas "
+"escolhas."

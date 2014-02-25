@@ -122,6 +122,8 @@ class BulkMeNow_Options {
 
 	public function render()
 	{
+		__( "Bulk Actions" );
+		
 		if( $_POST AND check_admin_referer( 'bulkmenow_update_options' ) )
 		{
 			$this->restore_options( TRUE );

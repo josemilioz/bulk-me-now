@@ -101,7 +101,7 @@
 							<input type="checkbox" name="bulkmenow_avoid_jquery" id="bulkmenow_avoid_jquery" value="1" <?php checked( '1', get_option( 'bulkmenow_avoid_jquery' ) ); ?> />
 							<span><?php _e( 'Avoid the loading of jQuery', "bulk" ); ?></span>
 						</div>
-						<p class="desc"><?php _e( 'Check this option in case your theme is already calling a jQuery instance prior to version 1.10+', "bulk" ); ?></p>
+						<p class="desc"><?php _e( 'Check this option in case your theme is already calling a jQuery instance 1.10+ version or later', "bulk" ); ?></p>
 					</label>
 					<div class="empty_name hide-mobile"></div>
 					<label class="column option" for="bulkmenow_scripts_bottom">
@@ -383,7 +383,7 @@
 					<ul>
 						<li><span class="lang"><?php _e( "English", "bulk" ); ?></span><span class="auth"><a href="mailto:metamorpher.py@gmail.com">mEtAmorpher</a></span></li>
 						<li><span class="lang"><?php _e( "Spanish", "bulk" ); ?></span><span class="auth"><a href="mailto:metamorpher.py@gmail.com">mEtAmorpher</a></span></li>
-						<li><span class="lang"><?php _e( "Portuguese (BR)", "bulk" ); ?></span><span class="auth"><a href="mailto:metamorpher.py@gmail.com">mEtAmorpher</a></span></li>
+						<li><span class="lang"><?php _e( "Portuguese", "bulk" ); ?></span><span class="auth"><a href="mailto:metamorpher.py@gmail.com">mEtAmorpher</a></span></li>
 					</ul>
 				</div>
 			</div>
