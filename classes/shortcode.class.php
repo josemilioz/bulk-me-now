@@ -101,6 +101,8 @@ class BulkMeNow_Shortcode {
 		
 		$recaptcha_width_adjust = ( $this->set->options->bulkmenow_recaptcha_image_width ) ? '<style type="text/css"> .recaptcha_image { width: ' . $this->set->options->bulkmenow_recaptcha_image_width . 'px !important; height: auto !important; } .recaptcha_image > img { width: ' . $this->set->options->bulkmenow_recaptcha_image_width . 'px; height: auto !important; } </style>' : '';
 		
+		$this->set->options->bulkmenow_activate_mandatories = ( ! empty( $this->set->options->bulkmenow_activate_mandatories ) ) ? $this->set->options->bulkmenow_activate_mandatories : array();
+		
 		ob_start();
 		require( dirname( dirname( __FILE__ ) ) . "/views/shortcode.template.php" );
 		$this->sc_id++; //Add numbers for the next shortcode id.
@@ -180,7 +182,7 @@ class BulkMeNow_Shortcode {
 
 	public function register_tinymce_plugin( $plugin_array )
 	{
-		$plugin_array['bulkmenow'] = plugins_url( "/assets/js/shortcode.js", dirname( __FILE__ ) );
+		$plugin_array['bulkmenow'] = plugins_url( "/assets/js-min/shortcode.min.js", dirname( __FILE__ ) );
 		return $plugin_array;
 	}
 }

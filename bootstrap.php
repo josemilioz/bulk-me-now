@@ -91,13 +91,11 @@ $bulkmenow_settings = (object) array(
 
 require_once( dirname( __FILE__ ) . '/classes/externals.class.php' );
 require_once( dirname( __FILE__ ) . '/classes/model.class.php' );
-require_once( dirname( __FILE__ ) . '/classes/notification.class.php' );
 require_once( dirname( __FILE__ ) . '/classes/list.class.php' );
 require_once( dirname( __FILE__ ) . '/classes/message.class.php' );
 require_once( dirname( __FILE__ ) . '/classes/options.class.php' );
 require_once( dirname( __FILE__ ) . '/classes/widget.class.php' );
 require_once( dirname( __FILE__ ) . '/classes/shortcode.class.php' );
-
-//$bulkmenow_notification->prepare_notification();
+require_once( dirname( __FILE__ ) . '/classes/notification.class.php' );
 
 ?>

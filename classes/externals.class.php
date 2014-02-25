@@ -49,12 +49,11 @@ class BulkMeNow_Externals {
 		add_action( 'init', array( &$this, 'register_files' ) );
 		add_action( 'admin_head', array( &$this, 'load_tweak' ) );
 		
-		if( $bulkmenow_settings->options->bulkmenow_disable_css != '1' )
+		if( ! is_admin() )
 		{
 			add_action( 'wp_print_styles', array( &$this, 'public_css' ) );
+			add_action( 'wp_print_scripts', array( &$this, 'public_js' ) );
 		}
-
-		add_action( 'wp_print_scripts', array( &$this, 'public_js' ) );
 	}
 	
 	/**
@@ -76,9 +75,9 @@ class BulkMeNow_Externals {
 		
 		$bottom = ( $bulkmenow_settings->options->bulkmenow_scripts_bottom == "1" ) ? TRUE : FALSE;
 
-		wp_register_script( 'bulkmenow-main', plugins_url( '/assets/js/main.js', dirname( __FILE__ ) ), array( 'jquery' ), $bulkmenow_settings->version, TRUE );
-		wp_register_script( 'bulkmenow-public', plugins_url( '/assets/js/public.js', dirname( __FILE__ ) ), NULL, $bulkmenow_settings->version, $bottom );
-		wp_register_script( 'bulkmenow-ajax', plugins_url( '/assets/js/ajax.js', dirname( __FILE__ ) ), array( 'bulkmenow-public' ), $bulkmenow_settings->version, $bottom );
+		wp_register_script( 'bulkmenow-main', plugins_url( '/assets/js-min/main.min.js', dirname( __FILE__ ) ), array( 'jquery' ), $bulkmenow_settings->version, TRUE );
+		wp_register_script( 'bulkmenow-public', plugins_url( '/assets/js-min/public.min.js', dirname( __FILE__ ) ), NULL, $bulkmenow_settings->version, $bottom );
+		wp_register_script( 'bulkmenow-ajax', plugins_url( '/assets/js-min/ajax.min.js', dirname( __FILE__ ) ), array( 'bulkmenow-public' ), $bulkmenow_settings->version, $bottom );
 	}
 	
 	/**
@@ -137,7 +136,9 @@ class BulkMeNow_Externals {
 
 	public static function public_css()
 	{
-		if( empty( $bulkmenow_settings->options->bulkmenow_disable_css ) )
+		global $bulkmenow_settings;
+
+		if( $bulkmenow_settings->options->bulkmenow_disable_css != '1' )
 		{
 			wp_enqueue_style( 'dashicons' );
 			wp_enqueue_style( 'bulkmenow-public' );
@@ -319,15 +320,11 @@ class BulkMeNow_Externals {
 		{
 			if( ! get_option( $k ) ) add_option( $k, maybe_serialize( $v ) );
 		}
-		
+
 		// Add notification cron jobs
 		if( ! wp_next_scheduled( 'bmn_daily_notifications' ) ) wp_schedule_event( current_time( 'timestamp' ), 'daily', 'bmn_daily_notifications' );
 		if( ! wp_next_scheduled( 'bmn_weekly_notifications' ) ) wp_schedule_event( current_time( 'timestamp' ), 'weekly', 'bmn_weekly_notifications' );
 		if( ! wp_next_scheduled( 'bmn_monthly_notifications' ) ) wp_schedule_event( current_time( 'timestamp' ), 'monthly', 'bmn_monthly_notifications' );
-		
-		add_action( 'bmn_daily_notifications', array( 'BulkMeNow_Notification', 'notify_daily' ) );
-		add_action( 'bmn_weekly_notifications', array( 'BulkMeNow_Notification', 'notify_weekly' ) );
-		add_action( 'bmn_monthly_notifications', array( 'BulkMeNow_Notification', 'notify_monthly' ) );
 		
 		register_deactivation_hook( dirname( dirname( __FILE__ ) ) . "/bootstrap.php", array( &$this, 'uninstall' ) );
 	}

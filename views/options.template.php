@@ -329,8 +329,8 @@
 		
 			<div id="submit-form">
 				<button type="submit" class="button button-primary button-large" name="submit" value="save"><?php _e( "Save Settings", "bulk" ); ?></button>
-				<button type="submit" class="button button-default button-large" name="submit" value="restore"><?php _e( "Restore Defaults", "bulk" ); ?></button>
-				<span class="hide-about-button hide-mobile"><a class="credits button button-large"><?php _e( 'About', "bulk" ); ?></a></span>
+				<button type="submit" class="button button-default button-large bmn-restore" name="submit" value="restore" data-confirm="<?php _e( "Are you sure you want to reset this plugin to factory settings? ALL CHANGES WILL BE LOST!", "bulk" ); ?>"><?php _e( "Restore Defaults", "bulk" ); ?></button>
+				<span class="hide-about-button hide-mobile"><a class="bmn-credits button button-large"><?php _e( 'About', "bulk" ); ?></a></span>
 			</div>
 				
 		</div>
@@ -367,7 +367,7 @@
 					<ul>
 						<li><?php printf( __( 'PHP %1$s', 'bulk' ), '5.3+' ); ?></li>
 						<li><?php printf( __( 'WordPress %1$s', 'bulk' ), '3.8+' ); ?></li>
-						<li><?php printf( __( 'Disk Space: %1$s', 'bulk' ), '121 kB' ); ?></li>
+						<li><?php printf( __( 'Disk Space: %1$s', 'bulk' ), '5 MB' ); ?></li>
 					</ul>
 				</div>
 				<div class="rows">

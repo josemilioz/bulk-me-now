@@ -90,6 +90,8 @@ class BulkMeNow_Widget extends WP_Widget {
 		
 		$recaptcha_width_adjust = ( $this->set->options->bulkmenow_recaptcha_image_width ) ? '<style type="text/css"> .recaptcha_image { width: ' . $this->set->options->bulkmenow_recaptcha_image_width . 'px !important; height: auto !important; } .recaptcha_image > img { width: ' . $this->set->options->bulkmenow_recaptcha_image_width . 'px; height: auto !important; } </style>' : '';
 		
+		$this->set->options->bulkmenow_activate_mandatories = ( ! empty( $this->set->options->bulkmenow_activate_mandatories ) ) ? $this->set->options->bulkmenow_activate_mandatories : array();
+		
 		echo $before_widget;
 		require( dirname( dirname( __FILE__ ) ) . "/views/widget.template.php" );
 		echo $after_widget;

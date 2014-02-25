@@ -91,7 +91,7 @@
 					<h5><?php _e( "Sent from", "bulk" ); ?></h5>
 					<p>
 						<?php if( ! empty( $message['page_from'] ) ) : ?>
-						<a href="<?php echo site_url( $message['page_from'] ); ?>" target="_blank"><?php echo $message['page_from']; ?></a>
+						<a href="<?php echo $message['page_from']; ?>" target="_blank"><?php echo $message['page_from']; ?></a>
 						<?php else: echo '<span class="empty">' . __( "Undefined", 'bulk' ) . '</span>'; endif;?>
 					</p>
 				</div>

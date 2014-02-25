@@ -49,12 +49,20 @@ jQuery(function($){
 		return true;
 	});
 	
-	$( ".credits" ).click(function(e){
+	$( ".bmn-credits" ).click(function( e ){
 		e.preventDefault();
 		$( "#about-board" ).fadeIn().find( ".close" ).click(function(e){
 			e.preventDefault();
 			$( "#about-board" ).fadeOut();
 		});
+	});
+	
+	$( ".bmn-restore" ).click(function( e ){
+		//e.preventDefault();
+		if( confirm( $( this ).data( 'confirm' ) ) )
+			return true;
+		else
+			return false;
 	});
 		
 });

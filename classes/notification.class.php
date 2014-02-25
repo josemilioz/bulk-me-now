@@ -42,6 +42,12 @@ class BulkMeNow_Notification {
 	{
 		add_action( 'admin_footer', array( &$this, 'show_unread_on_menu' ) );
 		add_action( 'admin_bar_menu', array( &$this, 'admin_bar' ), 70 );
+		
+		//Declarations
+		add_action( 'bmn_daily_notifications', array( &$this, 'notify_daily' ) );
+		add_action( 'bmn_weekly_notifications', array( &$this, 'notify_weekly' ) );
+		add_action( 'bmn_monthly_notifications', array( &$this, 'notify_monthly' ) );
+		
 	}
 	
 	/**
@@ -117,18 +123,18 @@ class BulkMeNow_Notification {
 	 * @author mEtAmorPher
 	 */
 
-	public static function prepare_notification()
+	public function prepare_notification()
 	{
 		global $bulkmenow_settings, $bulkmenow_model, $bulkmenow_message;
-
+		
 		$vars = array(
-			'counter' => $bulkmenow_model->count_according_status( 1 ),
-			'site_name' => get_option( 'blogname' ),
-			'site_url' => get_option( 'siteurl' ),
-			'admin_url' => site_url( 'wp-admin' ),
-			'bmn_url' => "http://metamorpher.net/",
-			'wp_url' => "http://wordpress.org/",
-			'date' => date( get_option( 'date_format' ) . " " . get_option( 'time_format' ), current_time( 'timestamp' ) ),
+			'counter' 	=> $bulkmenow_model->count_according_status( 1 ),
+			'site_name'	=> get_option( 'blogname' ),
+			'site_url'	=> get_option( 'siteurl' ),
+			'admin_url'	=> site_url( 'wp-admin' ),
+			'bmn_url'	=> "http://metamorpher.net/",
+			'wp_url'	=> "http://wordpress.org/",
+			'date'		=> date( get_option( 'date_format' ) . " " . get_option( 'time_format' ), current_time( 'timestamp' ) )
 		);
 		
 		extract( $vars );
@@ -140,7 +146,7 @@ class BulkMeNow_Notification {
 			if( is_file( $theme_notification_file ) )
 			{
 				ob_start();
-				require( dirname( dirname( __FILE__ ) ) . "/views/notification.template.php" );
+				require( $theme_notification_file );
 				$message = ob_get_clean();
 			}
 			else

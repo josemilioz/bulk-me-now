@@ -167,19 +167,23 @@ class BulkMeNow_Message {
 	 * @author mEtAmorPher
 	 */
 
-	public function send_reply( $to, $subject, $message )
+	public static function send_reply( $to, $subject, $message )
 	{
-		return wp_mail( 
-			$to, 
-			$subject, 
-			$message, 
-			array(
-				'From: ' . get_option( 'blogname' ) . ' <' . get_option( 'admin_email' ) . '>',
-				'Reply-To: ' . get_bloginfo( 'admin_email' ),
-				'Content-type: text/html; charset=' . strtolower( get_option( 'blog_charset' ) ),
-				'MIME-Version: 1.0',
-				'X-Mailer: PHP/' . phpversion(),
-			)
+		$header = array(
+			'From: ' . get_option( 'blogname' ) . ' <' . get_option( 'admin_email' ) . '>',
+			'Reply-To: ' . get_bloginfo( 'admin_email' ),
+			'Content-type: text/html; charset=' . strtolower( get_option( 'blog_charset' ) ),
+			'MIME-Version: 1.0',
+			'X-Mailer: PHP/' . phpversion()
+		);
+		
+		$header = implode( "\n", $header );
+		
+		return mail( 
+			$to,
+			$subject,
+			$message,
+			$header
 		);
 	}
 	

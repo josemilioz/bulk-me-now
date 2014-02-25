@@ -394,7 +394,7 @@ class BulkMeNow_Model {
 
 					$form['ip_address'] = $_SERVER['REMOTE_ADDR'];
 					$form['date_sent'] 	= current_time( 'mysql' );
-					$form['page_from'] 	= $_POST['_wp_http_referer'];
+					$form['page_from'] 	= $_SERVER['HTTP_REFERER']; //$_POST['_wp_http_referer'];
 					
 					// Check mandatories
 					if( ! empty( $this->set->options->bulkmenow_activate_mandatories ) AND is_array( $this->set->options->bulkmenow_activate_mandatories ) )
@@ -447,7 +447,7 @@ class BulkMeNow_Model {
 
 					$form['ip_address'] = $_SERVER['REMOTE_ADDR'];
 					$form['date_sent'] 	= current_time( 'mysql' );
-					$form['page_from'] 	= $_POST['_wp_http_referer'];
+					$form['page_from'] 	= $_SERVER['HTTP_REFERER']; //$_POST['_wp_http_referer'];
 					
 					// Check mandatories
 					if( ! empty( $this->set->options->bulkmenow_activate_mandatories ) AND is_array( $this->set->options->bulkmenow_activate_mandatories ) )
