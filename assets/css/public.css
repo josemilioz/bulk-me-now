@@ -1,0 +1,28 @@
+/**
+ * Plugin:			Bulk Me Now!
+ * Plugin URI:		http://metamorpher.net/bulk-me-now/
+ * Description:		Adds a Contact Form Module for your blog, so you don't get your contact form into your e-mail but your WP admin area instead.
+ * Author:			mEtAmorPher
+ * Author URI:		http://metamorpher.net/
+ * Version:			2.0
+ * Text Domain:		bulk
+ * Domain Path:		/lang
+ *
+ * Copyright 2014  mEtAmorPher  (email : metamorpher.py@gmail.com)
+ * 
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License, version 2, as 
+ * published by the Free Software Foundation.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ *
+ * @package bulk-me-now
+ */
+.widget_bulkmenow div.input,.shortcode_bulkmenow div.input{margin:0 0 5px;display:block}.widget_bulkmenow div.input input,.shortcode_bulkmenow div.input input,.widget_bulkmenow div.input textarea,.shortcode_bulkmenow div.input textarea{width:95%;display:inline-block;padding:6px 5px}.widget_bulkmenow div.input textarea,.shortcode_bulkmenow div.input textarea{resize:vertical}.widget_bulkmenow div.input button,.shortcode_bulkmenow div.input button{padding:10px 15px;line-height:1}.widget_bulkmenow div.input .required,.shortcode_bulkmenow div.input .required{display:block;width:5px;margin-top:-2px;float:right;font-size:12px}.widget_bulkmenow .advice,.shortcode_bulkmenow .advice{margin:1.5em 0}.widget_bulkmenow .advice.primary,.shortcode_bulkmenow .advice.primary{border-left:3px solid #428BCA}.widget_bulkmenow .advice.warning,.shortcode_bulkmenow .advice.warning{border-left:3px solid #F0AD4E}.widget_bulkmenow .advice.info,.shortcode_bulkmenow .advice.info{border-left:3px solid #5BC0DE}.widget_bulkmenow .advice.success,.shortcode_bulkmenow .advice.success{border-left:3px solid #5CB85C}.widget_bulkmenow .advice.danger,.shortcode_bulkmenow .advice.danger{border-left:3px solid #D9534F}.widget_bulkmenow .advice p,.shortcode_bulkmenow .advice p{padding:5px;line-height:1.3;margin:0}.widget_bulkmenow .input-recaptcha .recaptcha_image,.shortcode_bulkmenow .input-recaptcha .recaptcha_image{margin-bottom:6px;clear:both;height:auto!important}.widget_bulkmenow .input-recaptcha .recaptcha_image img,.shortcode_bulkmenow .input-recaptcha .recaptcha_image img{border-radius:3px;border:1px solid #E6E6E6}.widget_bulkmenow .input-recaptcha .recaptcha_tools,.shortcode_bulkmenow .input-recaptcha .recaptcha_tools{clear:both;overflow:hidden;display:block;margin:5px 0}.widget_bulkmenow .input-recaptcha .recaptcha_tools .button,.shortcode_bulkmenow .input-recaptcha .recaptcha_tools .button{height:24px;background:url(../img/recaptcha_tools.png) no-repeat;float:left;display:block;text-indent:-9999px}.widget_bulkmenow .input-recaptcha .recaptcha_tools .button a,.shortcode_bulkmenow .input-recaptcha .recaptcha_tools .button a{display:block;float:left;width:31px;height:24px}.widget_bulkmenow .input-recaptcha .recaptcha_tools .recaptcha_reload,.shortcode_bulkmenow .input-recaptcha .recaptcha_tools .recaptcha_reload{width:31px;background-position:0 0}.widget_bulkmenow .input-recaptcha .recaptcha_tools .recaptcha_only_if_image,.shortcode_bulkmenow .input-recaptcha .recaptcha_tools .recaptcha_only_if_image{width:32px;background-position:-31px 0}.widget_bulkmenow .input-recaptcha .recaptcha_tools .recaptcha_only_if_audio,.shortcode_bulkmenow .input-recaptcha .recaptcha_tools .recaptcha_only_if_audio{width:32px;background-position:-63px 0}.widget_bulkmenow .input-recaptcha .recaptcha_tools .recaptcha_help,.shortcode_bulkmenow .input-recaptcha .recaptcha_tools .recaptcha_help{width:31px;background-position:-95px 0}
