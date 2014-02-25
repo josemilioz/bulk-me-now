@@ -365,9 +365,9 @@
 				<div class="rows">
 					<h5><?php _e( "System Requirements", "bulk" ); ?></h5>
 					<ul>
-						<li><?php printf( __( 'PHP %1$s', 'bulk' ), '5.3+' ); ?></li>
-						<li><?php printf( __( 'WordPress %1$s', 'bulk' ), '3.8+' ); ?></li>
-						<li><?php printf( __( 'Disk Space: %1$s', 'bulk' ), '5 MB' ); ?></li>
+						<li><?php printf( __( 'PHP %1$s with Mail functions.', 'bulk' ), '5.3+' ); ?></li>
+						<li><?php printf( __( 'WordPress %1$s.', 'bulk' ), '3.8+' ); ?></li>
+						<li><?php printf( __( 'Disk Space: %1$s.', 'bulk' ), '5 MB' ); ?></li>
 					</ul>
 				</div>
 				<div class="rows">
