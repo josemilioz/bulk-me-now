@@ -66,11 +66,12 @@ Now you can create your own template for the notification e-mail. Simply create 
 
 == Screenshots ==
 
-1. The Option Page.
-2. Unread Messages, main screen.
-3. View Message screen, with the displayed and collected data.
-4. View Message screen, with Reply box expanded.
-5. The integration of the plugin with the Admin Bar.
+1. The Option Page, with all the editable fields.
+2. Widget displayed in a widget area, within Twenty-Fourteen theme.
+3. Admin interface, with the main menu button, the admin bar button, and the Unread view section.
+4. Viewing a message, with all the gathered information about the sender.
+5. Widget administrator.
+6. Shortcode insertion, with the code (green) and the button (red).
 
 == Changelog ==
 
