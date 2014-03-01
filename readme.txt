@@ -22,7 +22,7 @@ You will be able to customize which fields you want, and which fields you do not
 * Reply Function: Respond messages with rich-edited text right in the view screen. (Your server must have mail functions).
 * E-mails to note new messages: Can't get rid of ye olde postman? No worries, we let you know.
 
-** Required Specs**
+**Required Specs**
 
 * PHP 5.3+ with Mail functions enabled.
 * WordPress 3.8+
